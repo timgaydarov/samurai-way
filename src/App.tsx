@@ -1,12 +1,16 @@
-import React from 'react';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Profile from "./components/profile/Profile";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-     Hello, samurai! Let's go!
+    <div className="app">
+      <Header />
+      <div className="app_content">
+        <Navbar />
+        <Profile />
+      </div>
     </div>
   );
 }
-
-export default App;
