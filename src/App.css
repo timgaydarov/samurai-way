@@ -1,7 +1,16 @@
-.app_content {
+.app_wrapper-content {
   display: flex;
   font-size: 20px;
   margin-top: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.app_content {
+  width: 100%;
+  background-color: #f0f8ff;
+  padding: 5px;
+  margin-left: 5px;
 }
 
 
