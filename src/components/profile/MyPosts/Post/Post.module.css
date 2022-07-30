@@ -1,5 +1,19 @@
 .img {
   height: 50px;
   width: 50px;
+  margin-right: 20px;
 }
 
+.post {
+  margin-top: 30px;
+}
+
+.postMassage {
+  display: flex;
+  align-items: center;
+}
+
+.like {
+  margin-top: 10px;
+  margin-left: 30px;
+}

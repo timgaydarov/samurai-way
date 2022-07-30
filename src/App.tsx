@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/profile/Profile";
-import Messages from "./components/Messages/Messages";
+import Dialogs from "./components/Dialogs/Dialogs";
 import { BrowserRouter, Route } from "react-router-dom";
 
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
           <Navbar />
           <div className="app_content">
             <Route path="/profile" component={Profile} />
-            <Route path="/messages" component={Messages} />
+            <Route path="/dialogs" component={Dialogs} />
           </div>
         </div>
       </div>

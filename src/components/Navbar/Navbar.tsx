@@ -10,7 +10,7 @@ export default function Navbar() {
         </NavLink>
       </div>
       <div className={classes.item}>
-        <NavLink to="messages" activeClassName={classes.active}>
+        <NavLink to="dialogs" activeClassName={classes.active}>
           Messages
         </NavLink>
       </div>

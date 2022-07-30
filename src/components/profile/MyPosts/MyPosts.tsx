@@ -4,11 +4,13 @@ import Post from "./Post/Post";
 export default function MyPosts() {
   return (
     <div>
-      My posts
+      <h3>My posts</h3>
       <div>
         <textarea></textarea>
-        <button>Add post</button>
-        <button>Remove</button>
+        <div>
+          <button className={classes.add}>Add post</button>
+          <button>Remove</button>
+        </div>
       </div>
       <Post message="hi, how are you?" likesCount={0} />
       <Post message="yo" likesCount={23} />

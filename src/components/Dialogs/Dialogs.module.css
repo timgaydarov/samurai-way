@@ -1,0 +1,13 @@
+.dialogs {
+  display: flex;
+  padding: 15px 20px 20px 20px;
+}
+
+.dialog {
+  width: 150px;
+}
+
+.massages {
+  width: 100%;
+  margin-left: 70px;
+}
